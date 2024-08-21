@@ -37,6 +37,7 @@ while True:
                 continue            
             elif withdraw_counter <= 0:
                 print("Unable to complete your withdraw!\nYou can only withdraw 3 times!\n")
+                continue
             elif amount > withdraw_limit:
                 print("Unable to complete your withdraw!\nYou cannot withdraw more than R$500.00!\n")
                 continue
